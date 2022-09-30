@@ -1,6 +1,4 @@
-"""
-    Main bot file
-"""
+"""Main bot file"""
 import os
 from disnake import Intents
 from disnake.ext.commands import Bot
@@ -12,9 +10,7 @@ TOKEN = os.getenv("TOKEN")
 
 
 class Glykon(Bot):
-    """
-    Bots class
-    """
+    """Bots class"""
     def __init__(self):
         super().__init__(
             command_prefix="changeme",
