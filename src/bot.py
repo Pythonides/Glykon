@@ -23,11 +23,11 @@ class Glykon(Bot):
             intents=Intents.all(),
         )
 
-    def loadCogs(self) -> None:
+    def load_cogs(self) -> None:
         for file in os.listdir("./src/cogs"):
             if file.startswith("_"):
                 continue
-            if not file.endswith("py"):
+            if not file.endswith(".py"):
                 self.load_extension(f"src.cogs.{file}")
             self.load_extension(f"src.cogs.{file[:-3]}")
 
@@ -45,5 +45,5 @@ class Glykon(Bot):
         )
 
     def run(self) -> None:
-        self.loadCogs()
+        self.load_cogs()
         super().run(TOKEN, reconnect=True)
