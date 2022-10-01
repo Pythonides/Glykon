@@ -3,7 +3,6 @@ from src import Glykon
 
 if __name__ == "__main__":
     if ".env" not in os.listdir():
-
         print("⇒ Running configurations")
 
         token = input("🔴 paste your bot's token 🔴:")
