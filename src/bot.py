@@ -1,4 +1,3 @@
-"""Main bot file"""
 import os
 from disnake import Intents
 from disnake.ext.commands import Bot
