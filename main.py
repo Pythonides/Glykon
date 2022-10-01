@@ -2,7 +2,6 @@ import os
 from src import Glykon
 
 if __name__ == "__main__":
-
     if ".env" not in os.listdir():
 
         print("⇒ Running configurations")
