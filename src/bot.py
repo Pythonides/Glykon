@@ -10,6 +10,7 @@ TOKEN = os.getenv("TOKEN")
 
 class Glykon(Bot):
     """Bots class"""
+
     def __init__(self):
         super().__init__(
             command_prefix="changeme",
