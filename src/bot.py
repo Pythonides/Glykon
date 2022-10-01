@@ -43,3 +43,4 @@ class Glykon(Bot):
     def run(self) -> None:
         self.load_cogs()
         super().run(TOKEN, reconnect=True)
+        
