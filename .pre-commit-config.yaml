@@ -30,3 +30,4 @@ repos:
     hooks:
       - id: black
         name: Running black in all files.
+        additional_dependencies: ["click==8.0.4"]
