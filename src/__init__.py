@@ -1,4 +1,4 @@
-__title__ = "glykon"
+__name__ = "glykon"
 __license__ = "MIT"
 __version__ = "0.1.0"
 
