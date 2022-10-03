@@ -9,7 +9,7 @@ load_dotenv(dotenv_path="./.env")
 TOKEN = os.getenv("TOKEN")
 
 # Logger config
-logger = logging.getLogger("disnake")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 # Handler config
