@@ -36,8 +36,7 @@ class Glykon(Bot):
 
     def load_cogs(self) -> None:
         """Load cogs from the src/cogs directory"""
-        for file in os.listdir("./src/cogs"):
-            self.load_extensions("./src/cogs")
+        self.load_extensions("./src/cogs")
 
     async def on_ready(self) -> None:
         """On bot ready"""
