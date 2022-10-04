@@ -1,2 +1,3 @@
-# Glykon
-glykon offers an immersive experiance that is fully open source. No premium ever.
+<div align="center"><h1  align="center">Glykon</h1>
+Glykon offers an immersive experience that is <b>fully open source. No premium ever.</b></div>
+
